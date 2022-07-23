@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: #38006b;
+}
+
+.login{
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    background-color: #ffffff;
+    border: 8px solid #9c4dcc;
+    border-radius: 10px;
+    width: 380px;
+    height: 450px;
+    color: #494949;
+    text-align: center;
+}
+
+.login img{
+    width: 80px;
+    margin-top: 15px;
+}
+
+.login h1{
+    text-align: center;
+    margin-top: 8px;
+    color: #9c4dcc;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    margin-top: 25px;
+    width: 90%;
+    padding: 15px 0;
+    padding-left: 8px;
+    border: 2px solid #9c4dcc;
+}
+
+form a{
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    color: #9c4dcc;
+    font-size: 16px;
+}
+
+form a:hover{
+    color: #8139ae;
+}
+
+form input[type=submit]{
+    color: white;
+    font-size: 17px;
+    background-color: #9c4dcc;
+    width: 90%;
+    padding: 15px 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: #8139ae;
+}
