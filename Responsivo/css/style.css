@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    height: 80px;
+    padding: 0 2%;
+    background-color: #eeeeee;
+}
+
+.logo img{
+    margin-top: 8px;
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+header nav.menu ul{
+    float: right;
+    position: relative;
+    top: -40px;
+    margin-right: 60px;
+}
+
+header nav.menu li{
+    float: left;
+    padding: 0 20px;
+    list-style: none;
+}
+
+nav.menu li.botao{
+    background-color: #00e676;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+nav.menu a.btn{
+    color: #ffffff;
+}
+
+.secao{
+    width: 100%;
+}
+
+.parte-1{
+    float: left;
+    width: 50%;
+}
+
+.container-parte-1{
+    float: right;
+    padding: 0 60px;
+    margin-top: 160px;
+}
+
+.parte-1 h1.titulo-1{
+    font-size: 63px;
+    color: #00e676;
+}
+
+.parte-1 h1.titulo-2{
+    font-size: 63px;
+    color: #000;
+    margin-top: 3px;
+}
+
+.parte-1 h3{
+    color: #000;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    max-width: 560px;
+}
+
+.parte-1 a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #00e676;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 5px;
+}
+
+.parte-2{
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-image: url('../img/img02.webp');
+    background-repeat: no-repeat;
+    margin-top: 110px;
+}
